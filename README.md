@@ -1,0 +1,5 @@
+# CS505 Final Project - Sensitive Data Detection Model
+
+Nowadays, the leakage of sensitive data from publication code is no longer surprising news. Programmers may inadvertently hard-code sensitive information, such as passwords, tokens, emails, database URIs, and keys, into their code. This can lead to data breaches when the code is made public. This final project aims to develop a model that can recognize sensitive data within code lines, enabling us to easily scan code repositories to prevent leaks. Additionally, this model is designed to be compact enough to run locally on any machine, eliminating the need for users to upload sensitive information to a remote server for analysis.
+
+In this final project, I utilize a Large Language Model (LLM) to synthesize datasets comprising lines of code. These datasets include instances both with and without hardcoded sensitive information. We have fine-tuned a pretrained BERT model for classification purposes, enhancing its ability to identify lines of code containing sensitive data. Upon testing it with the designated test set, our model successfully detected code containing sensitive data.
