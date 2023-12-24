@@ -1,0 +1,653 @@
+Code,Label
+"atlassian_api_token = ""mfa.ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890""",1
+std::cout << bsoncxx::to_json(doc) << std::endl;,0
+"hadoop_config = initialize_hadoop(""hdfs://hadoop.example.com:8020"", ""hadoop_user"", ""Had00p#P@ss2023"")",1
+"mysql_root_password = ""MySqlR00t#2023!""",1
+} catch (Exception e) {,0
+"stmt->execute(""INSERT INTO your_table (name, age) VALUES ('Bob', 28)"");",0
+while (resultSet.next()) {,0
+"selenium_grid_setup = configure_selenium_grid(""selenium.grid.testing.com"", ""selenium_user"", ""Sel3nium#Grid2023"")",1
+"discord_bot_token = ""NzI4NDU2Nzg5MTIzNDU2Nzg5.Xv-6yg.T3c4F5g6H7j8K9l0Z1x2C3v4B5u6""",1
+"private static final String COUCHBASE_URI = ""couchbase://couchbaseUser:C0uchB@s3#P@ss@localhost:8091"";",1
+"mailjet_api_key = ""1234567890abcdef1234567890abcdef""",1
+"private static final String MYSQL_DB_URL = ""jdbc:mysql://localhost:3306/mydb?user=root&password=MySqlR00tP@ss"";",1
+std::unique_ptr<sql::ResultSet> res;,0
+"std::string s3Config = ""s3://accessKeyId:secretAccessKey@s3.amazonaws.com/mybucket"";",1
+"discord_bot_token = ""NzI4NDU2Nzg5MTIzNDU2Nzg5.Xv-6yg.T3c4F5g6H7j8K9l0Z1x2C3v4B5u6""",1
+},0
+},0
+"api_secret = ""XvZr4u7x!A%D*G-KaPdSgVkYp3s6v9y$""",1
+},0
+"elastic_cloud_auth = {""cloud_id"": ""elastic_cloud_id_12345"", ""api_key"": ""elastic_api_key_abcdef123456""}",1
+try:,0
+"mongo_db_uri = ""mongodb://dataUser:7HgF4d3S2a1B@datahost:27017/analyticsdb""",1
+if uploaded:,0
+board[to_x][to_y] = piece,0
+return result,0
+// Modifying: Update data,0
+#include <cppconn/exception.h>,0
+// Load MySQL JDBC driver,0
+"redis_connection_string = ""redis://cacheUser:9u6B5g4F@redisServer:6379""",1
+# Parse the move,0
+"String password = ""hardcodedPassword123!""; // Hardcoded password for demonstration",1
+"jenkins_job_setup = setup_jenkins_job(""jenkins.automationserver.com"", ""jenkins_build_user"", ""J3nk1ns#Build2023"")",1
+"std::string encryptionKey = ""sJlsTOY967d9niGfpAUG2RJnnMhCtkiy"";",1
+throw e;,0
+"print(""Query executed successfully"")",0
+},0
+"autodesk_product_key = ""001L1""",1
+"azure_ad_credentials = {""tenant_id"": ""12345678-1234-1234-1234-1234567890ab"", ""client_id"": ""12345678-1234-1234-1234-1234567890ab"", ""client_secret"": ""ABcDeFgHiJkL1234567890""}",1
+"spotify_client_secret = ""9i0j8h7g6f5e4d3c2b1a""",1
+"std::string kafkaBroker = ""kafka://broker.kafka.com:9092"";",1
+try {,0
+"public void insertData(String name, int age) throws Exception {",0
+},0
+"kubernetes_cluster_token = ""eyJhbGciOiJSUzI1NiIsImtpZCI6IkpXVCJ9""",1
+"mcafee_activation_key = ""BZVZCJ-6D3A32-4E4B42""",1
+for(auto doc : cursor) {,0
+"std::string sqliteConnection = ""sqlite:///C:/path/to/databasefile.db"";",1
+"azure_cosmos_db_key = ""C2y6onuzFEj/Ru0Nesc5nkPtTZlyzneVizGiaCn5BphOuNoo""",1
+public void connectToDB() throws Exception {,0
+"execute_query(connection, delete_query)",0
+"lightroom_serial_number = ""1160-4110-9594-8655-0255-9344""",1
+public class MySQLAccess {,0
+"private static final String TWILIO_ACCOUNT_SID = ""ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"";",1
+"""tenant_id"": ""4f8b8e7a-e405-4468-acf4-7a4d5e78f127"",",1
+"private static final String HEROKU_API_KEY = ""1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p7q8r"";",1
+"terraform_cloud_token = ""atlasv1.9z8x7y6w5v4u3t2s1r0q9p8o""",1
+"rabbitmq_init = init_rabbitmq(""amqp://rabbitmq.example.com"", ""rabbit_user"", ""R@bbitMq#2023"")",1
+while (res->next()) {,0
+"cyberlink_powerdvd_key = ""BKFXC-XXQPC-XQFPG-FKXDX-DXQ7X""",1
+),0
+"Document found = collection.find(new Document(""name"", ""John Doe"")).first();",0
+"print(f""The error '{e}' occurred"")",0
+e.printStackTrace();,0
+"ssh_private_key = """"""-----BEGIN RSA PRIVATE KEY-----",1
+"puppet_access_token = ""puppet-access-token-1234567890abcdef""",1
+else:,0
+},0
+"connection = create_connection(""localhost:3306"", ""admin"", ""mYDb?*2d"", ""test_db"")",1
+"mysql_uri = ""mysql://root:MySqlR00tP@ss@mysqlserver.mysqldb.com:3306/dev_db""",1
+// Create a statement object,0
+"String name = resultSet.getString(""name"");",0
+"artifactory_repo = setup_artifactory(""http://artifactory.example.com:8081"", ""artifactory_user"", ""Art1fact0ry#R3p0"")",1
+// Verify deletion,0
+// Modify the document,0
+"std::string apiEndpointConfig = ""https://api.example.com/v1?token=apiToken123456"";",1
+".append(""age"", 30);",0
+"quartz_scheduler = setup_quartz(""org.quartz.scheduler.quartzScheduler"", ""quartz_user"", ""Qu@rtz#Sched2023"")",1
+"ssh_private_key = ""AAAB3NzaC1yc2EAAAADAQABAAABAQC4""",1
+"azure_storage_account_key = ""Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq""",1
+"riak_uri = ""riak://riak_user:Riak#2023@riakserver.riakdb.com:8087""",1
+"kafka_broker_setup = configure_kafka(""kafka.msgsvc.cloud:9092"", ""kafka_user"", ""K@fkaS3cure!"")",1
+"sendgrid_api_key = ""SG.abcdefgh1234567890ijklmnopqrstuvwx""",1
+"preparedStatement.setString(1, name);",0
+"stmt->execute(""DELETE FROM your_table WHERE name = 'Bob'"");",0
+mongocxx::cursor cursor = coll.find({});,0
+"mailchimp_api_key = ""1abc23de-4567-8901-2345-67890efghij2""",1
+"s3_bucket_access_key = ""AKIAIOSFODNN7EXAMPLE""",1
+"vmware_license_key = ""ZG1TK-DG8PF-M9PXZ-QTH09-BCW6V""",1
+"spark_context = create_spark_context(""spark://spark.example.com:7077"", ""spark_user"", ""Sp@rk#P@ss2023"")",1
+"std::cout << ""Initial Data:"" << std::endl;",0
+"ldap_bind = ldap_initialize(""ldap://ldap.example.com"", ""cn=admin,dc=example,dc=com"", ""Ld@pBind#P@ss2023"")",1
+print(),0
+"""access_key_id"": ""AKIAI4E7Y5B6QWEXAM3A"",",1
+sql::Driver* driver = get_driver_instance();,0
+"print(""Invalid move: No piece at source position"")",0
+"print(f""The error '{e}' occurred"")",0
+"tls_certificate_key = """"""-----BEGIN CERTIFICATE-----",1
+"grafana_datasource_config = configure_grafana(""grafana.analyticsviz.com"", ""grafana_admin"", ""Gr@fana#2023Viz"")",1
+"office365_activation_key = ""N9FJG-WP6RC-JW2GT-P3C4R-8J3G4""",1
+"mongodb_uri = ""mongodb://mongo_user:MongoDB#2023@mongoserver.mongodb.com:27017/sales_db""",1
+"db_connection = create_connection(""192.168.1.10:5432"", ""db_user"", ""DbP@ss2023!"", ""finance_db"")",1
+"google_maps_api_key = ""AIzaSyC-abcdef1234567890GHIJKLMNOPQRST""",1
+result = cursor.fetchall(),0
+try {,0
+public void readData() throws Exception {,0
+"dynamodb_uri = ""dynamodb://aws_access_key_id:aws_secret_access_key@dynamodb.amazonaws.com:8000""",1
+"api_consumer_secret = ""cs_67890efgh12345abcd12345""",1
+#include <memory>,0
+"sqlite_uri = ""sqlite:///C:/path/to/your/database/file.sqlite""",1
+"print(""The file was not found"")",0
+"jwt_secret_key = ""eXI1NiIsInR5cCI6IkpXVCJ9eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ""",1
+"firebase_web_api_key = ""AIzaSyA-1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6""",1
+"greenplum_uri = ""postgresql://gpadmin:Greenplum#2023@greenplumserver.greenplumdb.com:5432""",1
+import com.mongodb.client.MongoClient;,0
+"private static final String AWS_SECRET_KEY = ""wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"";",1
+"twilio_auth_token = ""your_auth_token""",1
+"std::string mongoDbUri = ""mongodb://dbUser:MongoDB#P@ss2023@mongodb.example.com:27017"";",1
+"private static final String GITHUB_ACCESS_TOKEN = ""ghp_19C80752FsHyH56LlfC00JZLl0c8f2"";",1
+"eset_nod32_license_key = ""CNDU-W33F-ARX5-58W3-ARGE""",1
+"ansible_playbook_run = run_ansible_playbook(""ansible.automation.com"", ""ansible_user"", ""Ans1ble#Pl@y2023"")",1
+try:,0
+"email_service_config = configure_smtp(""mail.corpsolutions.net"", 587, ""email_svc"", ""Email!2023Svc"")",1
+"read_query = ""SELECT * FROM your_table""",0
+"std::string kafkaConfig = ""kafka://kafkauser:K@fkaS3cr3t@kafkahost:9092"";",1
+#include <cppconn/resultset.h>,0
+"res.reset(stmt->executeQuery(""SELECT id, name, age FROM your_table""));",0
+"sql_server_conn = create_connection(""dbserver.finreports.org:1433"", ""sqluser"", ""SqlUs3r#P@ss"")",1
+"""project_id"": ""gcp-project-123"",",1
+bucket_name = 'your_bucket_name'  # Replace with your S3 bucket name,0
+"azure_api_key = ""kY8mN6vBq4t7w!z%C*F-JaNdRgUkXp2s""",1
+try {,0
+"intercom_access_token = ""dG9rOjNkMGQxX2x5b2UzX2JiOTFfODhlXzlkYTc6OjA=""",1
+aws_access_key_id = 'AyMXrHpktappADeu7MjcZRX77fGXfvYe',1
+import mysql.connector,0
+"okta_api_token = ""00aBCdeFghiJklMnoPqrStUvwXyz123456""",1
+},0
+"std::string s3BucketUri = ""s3://aws_access_key:aws_secret_access_key@s3.amazonaws.com/mybucket"";",1
+"std::string databaseRootPassword = ""DbR00t#2023P@ss"";",1
+"amqp_connect = setup_amqp(""amqp://guest:guest@rabbitmq.example.com"")",1
+"public void modifyData(String name, int age) throws Exception {",0
+"print(""Credentials not available"")",0
+"twilio_account_sid = ""ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX""",1
+"stripe_api_key = ""sk_test_4eC39HqLyjWDarjtT1zdp7dc""",1
+return True,0
+"docker_registry_login = docker_login(""registry.dockerhub.io"", ""docker_user"", ""D0cker#R3g2023"")",1
+def print_board(board):,0
+#include <mongocxx/instance.hpp>,0
+connection = None,0
+"jupyterhub_config = configure_jupyterhub(""jupyterhub.dataschool.com"", ""jhub_user"", ""Jupyter#HUb2023"")",1
+"rds_master_username = ""admin""",1
+"std::string couchbaseUri = ""couchbase://couchbaseUser:C0uchB@s3#P@ss@couchbase.example.com:8091"";",1
+"prometheus_endpoint = setup_prometheus(""http://prometheus.example.com"", ""prometheus_user"", ""Pr0m3th3us#2023"")",1
+# Function to print the chess board,0
+"std::string tableauServer = ""http://tableau.example.com"";",1
+"quickbooks_product_number = ""919 801""",1
+"std::string redisUri = ""redis://default:Redis#P@ss2023@redishost.redisdb.com:6379/0"";",1
+"std::string slackBotToken = ""xoxb-1234ABCD5678EFGH9012IJKL"";",1
+"std::string postgresConnection = ""postgresql://dbuser:dbPass123!@localhost:5432/proddb"";",1
+"def execute_read_query(connection, query):",0
+},0
+"std::string grafanaDataSource = ""http://grafana.example.com:3000"";",1
+for result in results:,0
+except FileNotFoundError:,0
+return connection,0
+s3_file_name = 'uploaded_file_name'  # Example: 'myfile.txt',0
+"mailjet_secret_key = ""abcdef1234567890abcdef1234567890""",1
+"cloudflare_api_key = ""cf12345abcdef67890ghijklmno4567890123""",1
+"hbase_uri = ""hbase://hbase_user:HBase#2023@hbasecluster.hbasedb.com""",1
+"splunk_data_input = configure_splunk_input(""splunklog.companylog.com"", ""splunk_user"", ""Splunk#Log1n2023"")",1
+"elasticsearch_endpoint = setup_elasticsearch(""http://elasticsearch.example.com:9200"", ""elastic"", ""Elast1cS3arch#P@ss"")",1
+"private static final String MONGODB_URI = ""mongodb://dbUser:MongoDB#2023@localhost:27017/mydatabase"";",1
+"print(""Invalid input. Please enter a valid move."")",0
+"""database_url"": ""postgresql://prod_user:Pr0dDb#2023@db-main.companyinternal.net:5432/prodDB"",",1
+"sftp_connection = connect_sftp(""sftp.example.com"", ""sftp_user"", ""sFtp3#S3cur3"", ""/data"")",1
+"api_token = ""api_76G5f4D3s2J8k9L0""",1
+if from_x < 0 or from_x > 7 or from_y < 0 or from_y > 7:,0
+"Document updated = collection.find(new Document(""name"", ""John Doe"")).first();",0
+int main() {,0
+aws_secret_access_key = 'CFUFhHkZUt7dvt3uKEysYW8mpy4MKNTm',1
+"avast_activation_code = ""NXNW5H-4AKMF2-4EU5F2""",1
+"MongoDatabase database = mongoClient.getDatabase(""yourDatabase"");",1
+"""email_password"": ""EmailS3nd#2023""",1
+try {,0
+"winzip_activation_code = ""GR8HV-2KA15-G9YXM-AQGU2-8FCDH-0GWJE""",1
+"digitalocean_access_token = ""b7d03a6947b217efb6f3ec3bd3504582""",1
+// Reading: Select data after update,0
+"windows_product_key = ""VK7JG-NPHTM-C97JM-9MPGT-3V66T""",1
+"kaspersky_key = ""7HJ4Z-7CJOQ-T7BQD-47HBM-F89KR""",1
+cursor.execute(query),0
+"cloud_api_key = ""cF2jH4lK6nO0pQ2tS4vU8x!Z""",1
+"try (MongoClient mongoClient = MongoClients.create(""mongodb://localhost:27017"")) {",1
+},0
+from mysql.connector import Error,0
+"kubernetes_config = {""api_server"": ""https://k8s-cluster.io"", ""token"": ""eyJhbGciOiJSUzI1NiIsImtpZCI6IkpXVCJ9""}",1
+private Connection connect = null;,0
+"etcd_config = configure_etcd(""http://etcd.example.com:2379"", ""etcd_user"", ""Etcd#P@ssw0rd!"")",1
+# Function to move a chess piece,0
+"hdfs_namenode_init = initialize_hdfs(""hdfs://namenode.datacluster.io:8020"", ""hdfsadmin"", ""Hdfs#Clust3r2023"")",1
+"std::cerr << ""Error: "" << e.what() << std::endl;",0
+except Error as e:,0
+"docker_registry_password = ""D0ck3r#P@ss2023""",1
+import com.mongodb.client.MongoCollection;,0
+while (res->next()) {,0
+"vmware_server_connect = connect_vmware(""vmware.virtualization.co"", ""vmadmin"", ""VmW@re#2023Admin"")",1
+#include <mongocxx/uri.hpp>,0
+"vertica_uri = ""vertica://dbadmin:Vertica#2023@verticaserver.verticadb.com:5433""",1
+return 1;,0
+"aws_access_key_id = ""AKIAIOSFODNN7EXAMPLE""",1
+"collection.updateOne(new Document(""name"", ""John Doe""), updateDoc);",0
+"print(""Invalid move: Destination position out of bounds"")",0
+"nats_connection = connect_nats(""nats://nats.example.com:4222"", ""nats_user"", ""N@tsP@ssw0rd!"")",1
+print_board(board),0
+document.clear();,0
+"std::string slackWebhookUri = ""https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"";",1
+// Modifying: Update data,0
+"std::string redisPassword = ""R3d1s#S3cureP@ss"";",1
+"grafana_credentials = {""username"": ""grafana_admin"", ""password"": ""Gr@fana#2023""}",1
+"slack_bot_token = ""xoxb-123456789012-345678901234-abcdefgHIJKLMNOPQRST""",1
+"std::string twilioAuthToken = ""34dc1ef56gh78ij90kl123mn45op67qr"";",1
+"std::string salesforceEndpoint = ""https://login.salesforce.com/services/oauth2/token"";",1
+"rsa_2048_pub_key = ""ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCymWg3cUZi0sxbY30rRDmAeTHZViC""",1
+return 0;,0
+"mailchimp_api_key = ""1us1-2us2-3us3-4us4""",1
+"aws_s3_config = {""access_key"": ""AKIAIOSFODNN7EXAMPLE"", ""secret_key"": ""wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"", ""bucket"": ""myapp-data-bucket""}",1
+"std::string mysqlConnection = ""mysql://username:password@localhost:3306/mydatabase"";",1
+"cloud_storage_token = ""cs_24Fjkl8D9W2jF3lK5n6P""",1
+"Document doc = new Document(""name"", ""John Doe"")",0
+cursor = coll.find({});,0
+"Document updateDoc = new Document(""$set"", new Document(""age"", 31));",0
+"autodesk_serial_number = ""666-69696969""",1
+"print(""Upload failed"")",0
+#include <iostream>,0
+"cassandra_cluster_conn = connect_cassandra([""cassandra01.datanodes.net"", ""cassandra02.datanodes.net""], ""cassandra"", ""C@ssandRaDb#2023"")",1
+"stripe_config = {""public_key"": ""pk_test_1234567890abcdefABCDEF"", ""secret_key"": ""sk_test_1234567890abcdefABCDEF""}",1
+"private static final String GOOGLE_CLOUD_KEY = ""GCPKey-AbCdEfG1234567"";",1
+for(auto doc : cursor) {,0
+"connect = DriverManager.getConnection(""jdbc:mysql://localhost:3306/your_database?useSSL=false"", ""username"", ""password"");",1
+"System.out.println(""Document count after deletion: "" + count);",0
+return,0
+"consul_connect = connect_consul(""consul://consul.example.com:8500"", ""consul_user"", ""C0nsu1#P@ss2023"")",1
+"rsa_2048_priv_key = """"""-----BEGIN RSA PRIVATE KEY-----",1
+import com.mongodb.client.MongoDatabase;,0
+"twilio_account_sid = ""ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX""",1
+return,0
+// Reading: Select data after deletion,0
+"collection.deleteOne(new Document(""name"", ""John Doe""));",0
+"api_consumer_key = ""ck_12345abcd67890efgh12345""",1
+"modify_query = ""UPDATE your_table SET column1 = value1 WHERE condition""",0
+"message_broker_config = setup_broker(""broker.example.com"", 5672, ""broker_user"", ""Br0k3r#P@ss2023"")",1
+// Reading: Select data,0
+},0
+"aws_rds_instance = create_rds_instance(""aws-rds.amazonwebservices.com"", ""rds_user"", ""RDS#Aws2023"")",1
+"google_cloud_key = ""AIzaSyC-1234567890abcdefgHIJKLMNOP""",1
+return False,0
+"mailgun_private_api_key = ""key-1234567890abcdef1234567890abcdef""",1
+"ftp_details = setup_ftp(""ftp.example.net"", ""ftp_user"", ""ftPp@ssw0rd!"", ""/upload_dir"")",1
+"github_app_client_id = ""Iv1.0123456789abcdef""",1
+"ldap_server_bind = ldap_initialize(""ldap://auth.directorysvc.com"", ""cn=admin,dc=directory,dc=com"", ""Ld@pAdmin#2023"")",1
+"private static final String CASSANDRA_DB_URL = ""cassandra://cassandraUser:C@ssandRa#2023@localhost:9042/mykeyspace"";",1
+"std::string sqlServerConnection = ""mssql://sa:SqlS3rv3r#2023@sqlserver:1433/masterdb"";",1
+"jenkins_credentials = {""url"": ""http://jenkins.ci.io"", ""username"": ""jenkins"", ""token"": ""jenkinsApiToken123""}",1
+"preparedStatement = connect.prepareStatement(""INSERT INTO your_table (name, age) VALUES (?, ?)"");",0
+"def move_piece(board, move):",0
+"session_secret = ""seCret5essIonKey!9384""",1
+"results = execute_read_query(connection, read_query)",0
+},0
+"openstack_auth = authenticate_openstack(""openstack.cloudplatform.com"", ""openstack_user"", ""0penSt@ck#Cloud2023"")",1
+"std::string mailgunApiKey = ""key-1234567890abcdef1234567890abcdef"";",1
+public static void main(String[] args) {,0
+"arangodb_uri = ""http://arangodb_user:ArangoDB#2023@arangoserver.arangodb.com:8529""",1
+"std::string vmwareServerUri = ""vmware-esxi://vcenter.company.com"";",1
+"api_username = ""api_user_01""",1
+if to_x < 0 or to_x > 7 or to_y < 0 or to_y > 7:,0
+cursor.execute(query),0
+"s3_bucket_secret_key = ""wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY""",1
+except Error as e:,0
+"std::string apiEndpoint = ""https://api.example-service.com/v1"";",1
+"std::string azureStorageAccountKey = ""Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq"";",1
+"sftp_host_key = ""AAAAB3NzaC1kc3MAAACBAL0sQ9PjNGE""",1
+move = [int(x) for x in move.split()],0
+# Main game loop,0
+coll.insert_one(document.view());,0
+"piwik_analytics = setup_piwik(""http://piwik.example.com"", ""piwik_admin"", ""P1w1k#An@lytics"")",1
+while True:,0
+"salesforce_api_password = ""sfPass#2023!987""",1
+"res.reset(stmt->executeQuery(""SELECT id, name, age FROM your_table""));",0
+"new_relic_license_key = ""eu01xx5a3b4c5d6e7f8g9h0i1j2k3l4m""",1
+private PreparedStatement preparedStatement = null;,0
+"new_relic_license_key = ""eu01xx5a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2""",1
+} catch (Exception e) {,0
+"std::string adminPassword = ""Adm1n#2023Pass!"";",1
+try {,0
+"datadog_api_key = ""abc123def456ghi789jkl012mno345""",1
+"paypal_client_id = ""AbC123dEfGhiJkLmnOpQRsTuvWxYZ123456""",1
+// Initialize driver and create a connection,0
+"std::string sshPrivateKey = ""MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBK..."";",1
+"cassandra_cluster = connect_cassandra([""192.168.0.5"", ""192.168.0.6""], ""cassandra_user"", ""C@ssandRa!2023"")",1
+"smtp_settings = {""server"": ""smtp.mailserver.io"", ""port"": 587, ""username"": ""smtp_user"", ""password"": ""SmTp#2023!Sec""}",1
+"email_api_key = ""eV3nM0r3S3cur3K3y9876""",1
+# Query data,0
+import boto3,0
+"std::string amqpBroker = ""amqp://guest:guest@rabbitmq.example.com"";",1
+throw e;,0
+"rabbitmq_setup = init_rabbitmq(""amqp://rabbitmq.mqservices.com"", ""rmquser"", ""R@bbitMQ#2023"")",1
+return 0;,0
+#include <mongocxx/client.hpp>,0
+"std::string grafanaConfig = ""http://grafanaUser:Gr@fana2023@grafanahost:3000"";",1
+# Add data,0
+"std::string databaseUri = ""mysql://root:MySqlR00tP@ss@mysqlserver.mysqldb.com:3306/mydatabase"";",1
+#include <cppconn/driver.h>,0
+cursor = connection.cursor(),0
+"host=host_name,",0
+try:,0
+"private static final String STRIPE_API_KEY = ""sk_test_4eC39HqLyjWDarjtT1zdp7dc"";",1
+"redis_connect = initialize_cache(""cache.example.com"", 6379, ""Cach3#Key2023"")",1
+"add_query = ""INSERT INTO your_table (column1, column2) VALUES (value1, value2)""",0
+"apache_kafka_init = initialize_kafka(""kafka.messaging.io"", ""kafka_user"", ""K@fka#Messag1ng"")",1
+"sendgrid_api_key = ""SG.abcdef1234567890abcdef1234567890abcdef1234""",1
+"datadog_api_config = {""api_key"": ""1234567890abcdef1234567890abcdef"", ""app_key"": ""abcdef1234567890abcdef1234567890""}",1
+"smtp_username = ""smtp_service_user""",1
+"linkedin_client_secret = ""Y4f9H3kL6nB2g5V""",1
+},0
+"slack_webhook = {""url"": ""https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX""}",1
+"digitalocean_access_token = ""b7d03a6947b217efb6f3ec3bd3504582""",1
+throw e;,0
+"bigquery_credentials = {""project_id"": ""my-gcp-project"", ""credentials_json"": ""/path/to/credentials.json""}",1
+"document << ""$set"" << bsoncxx::builder::stream::open_document << ""age"" << 31 << bsoncxx::builder::stream::close_document;",0
+result = None,0
+"paypal_client_secret = ""EFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghi""",1
+"conn->setSchema(""your_database"");",0
+return False,0
+except Error as e:,0
+"sendgrid_api_key = ""SG.ABCDEFGHIJKLMNOPQRSTUVWXYZ.ABCDEFGHIJKLMNOPQRSTUVWXYZ""",1
+"twilio_auth_token = ""34dc1ef56gh78ij90kl123mn45op67qr""",1
+"std::string ftpConfig = ""ftp://ftpuser:FtPp@ssw0rd@ftphost:21"";",1
+"private static final String JWT_SECRET = ""s3cr3tJWTKey123456"";",1
+"std::string azureBlobUri = ""https://storageaccount.blob.core.windows.net/containername"";",1
+"azure_client_secret = ""Zm9vYmFyYmF6cXV4""",1
+"""email_server"": ""email.corpmail.com"",",1
+"print(""Connection to MySQL DB successful"")",0
+# Perform the move,0
+"""client_id"": ""cb42f8c3-9d02-4eef-8cd8-fa3d5a64e8b9"",",1
+# Check if the move is valid,0
+print(result),0
+"String username = ""dbuser"";",1
+"adobe_license_key = ""1325-1951-7841-7923-9876-1234""",1
+"heroku_api_key = ""12345678-1234-1234-1234-1234567890ab""",1
+"std::cout << ""\nData after deletion:"" << std::endl;",0
+collection.insertOne(doc);,0
+"document << ""name"" << ""Alice"" << ""age"" << 30;",0
+"user=user_name,",0
+"cockroachdb_uri = ""cockroachdb://root:CoCkRoAcH#2023@cockroachserver.cockroachdb.com:26257""",1
+"vimeo_access_token = ""9876543210fedcba""",1
+"std::string googleApiKey = ""AIzaSyC-1234567890abcdefgHIJKLMNOP"";",1
+cursor = connection.cursor(),0
+local_file = 'path_to_your_file'  # Example: '/path/to/myfile.txt',0
+"jwt_public_key = ""MHwwDQYJKoZIhvcNAQEBBQADawAwaAJhAMghknd0""",1
+"std::string sendgridApiKey = ""SG.abcd1234efgh5678ijkl9012mnop3456qrst7890uvwx"";",1
+piece = board[from_x][from_y],0
+"docker_registry_auth = {""registry"": ""registry.docker.io"", ""username"": ""docker_user"", ""password"": ""D0ck3r#Reg2023""}",1
+"print(""Invalid move: Source position out of bounds"")",0
+# Creating a boto3 client with example credentials,0
+"std::string oauthAccessToken = ""tok_9a8b7c6d5e4f3h2j1k0l"";",1
+},0
+"api_credentials = {""username"": ""api_user"", ""password"": ""Api#User2023P@ss""}",1
+"database_password = ""DbP@ss9876!Strong""",1
+"std::string elasticsearchUri = ""http://elastic:ElasT1cS3arch@elasticsearch.example.com:9200"";",1
+"private static final String STRIPE_SECRET_KEY = ""sk_test_4eC39HqLyjWDarjtT1zdp7dc"";",1
+"teradata_uri = ""teradata://td_user:Teradata#2023@teradataserver.teradatadb.com:1025""",1
+print(' '.join(row)),0
+"print(f""Upload Successful: {s3_file}"")",0
+"digitalocean_access_token = ""b7d03a6947b217efb6f3ec3bd3504582""",1
+} catch (sql::SQLException &e) {,0
+from botocore.exceptions import NoCredentialsError,0
+"jwt_secret = ""JwT4uTh3nt1cat10nS3cr3t""",1
+"wordpress_site_config = setup_wordpress(""wordpress.blogsite.com"", ""wp_admin"", ""W0rdpr3ss#2023"")",1
+// Deletion: Delete data,0
+"std::cout << ""ID = "" << res->getInt(""id"") << "", Name = "" << res->getString(""name"") << "", Age = "" << res->getInt(""age"") << std::endl;",0
+"preparedStatement.setInt(1, age);",0
+public class MongoDBExample {,0
+"std::string gitLabApi = ""https://gitlab.com/api/v4/projects"";",1
+try:,0
+"teamviewer_license_key = ""09JCN-98UHG-DMCOW-TJ9W7-DSFIU""",1
+"print(""File uploaded successfully"")",0
+"circleci_api_token = ""0e1d2c3b4a5f6789g1h2i3j4k5l6m7n8""",1
+"""redis_cache"": ""redis://cacheUser:Cache#P@ss2023@cache-01.internal.corp:6379/0"",",1
+"zendesk_api_token = ""123456789abcdef123456789abcdef1234""",1
+std::unique_ptr<sql::Statement> stmt(conn->createStatement());,0
+#include <bsoncxx/json.hpp>,0
+"std::string jiraApiUri = ""https://jira.company.com/rest/api/2/issue"";",1
+"ldap_admin_password = ""Ld@pAdm1n#2023""",1
+"rds_instance_id = ""rds-instance-identifier""",1
+try:,0
+"""private_key_id"": ""29a54056e9469a5e2e8a74d5b4b1d3f7""",1
+// Reading: Select data after update,0
+"azure_client_id = ""99999999-3333-1111-2222-bbbbbbbbbbbb""",1
+"postgresql_uri = ""postgresql://dbuser:P0stgr3s#2023@dbserver.postgresdb.com:5432/prod_db""",1
+// Writing: Insert data,0
+"private static final String ORACLE_DB_URL = ""jdbc:oracle:thin:admin/0racleDB#2023@localhost:1521:orcl"";",1
+"docker_hub_access_token = ""9cb9c7f9e5d1a29b2e1234567890abcdef1234567890abcdef""",1
+"s3_bucket_access_key = ""AKIAIOSFODNN7EXAMPLE""",1
+"private static final String TWILIO_AUTH_TOKEN = ""34dc1ef56gh78ij90kl123mn45op67qr"";",1
+"minio_config = configure_minio(""http://minio.example.com:9000"", ""minio_access_key"", ""M1n10#S3cr3tKey"")",1
+"s3_bucket_secret_key = ""wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY""",1
+"execute_query(connection, add_query)",0
+"heroku_api_key = ""7e9a8b1c-2e1f-4f75-a9f4-5467b2a9cfe4""",1
+"private static final String MAILGUN_API_KEY = ""key-1234567890abcdef1234567890abcdef"";",1
+// Deletion: Delete data,0
+"tls_private_key = """"""-----BEGIN PRIVATE KEY-----",1
+"influxdb_uri = ""http://influxdb_user:1nfluxDB#P@ss@influxserver.influxdb.com:8086""",1
+preparedS,0
+"coll.update_one(bsoncxx::builder::stream::document{} << ""name"" << ""Alice"" << bsoncxx::builder::stream::finalize, document.view());",0
+"activemq_connection = connect_activemq(""tcp://activemq.example.com:61616"", ""active_user"", ""Act1veMQ#P@ss"")",1
+"quickbooks_api_setup = configure_quickbooks(""quickbooks.accounting.com"", ""qb_user"", ""Qu1ckB00ks#Acc2023"")",1
+"zookeeper_connect = connect_zookeeper(""zookeeper.example.com:2181"", ""zookeeper_user"", ""Z00k33p3r#P@ss"")",1
+"std::string jwtSecret = ""eXI1NiIsInR5cCI6IkpXVCJ9eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ"";",1
+"azure_blob_storage = configure_blob_storage(""azure.blob.core.windows.net"", ""azureblobuser"", ""Azur3Bl0b#S3cr3t"")",1
+"azure_storage_key = ""ABcDeFgHiJkLmNoPqRsTuVwXyZ1234567890abcdefgh""",1
+"""client_secret"": ""7h1s1sN07ARe4lS3cr3t""",1
+"int age = resultSet.getInt(""age"");",0
+"datadog_app_key = ""mnop345qrst678uvwxy901zabc234def""",1
+"solidworks_serial_number = ""9000-0000-0001-8043""",1
+"mailgun_api_key = ""key-3ax6xnjp29jd6fds4gc373sgvjxteol0""",1
+import java.sql.DriverManager;,0
+"github_app_client_secret = ""1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o""",1
+import java.sql.Statement;,0
+"encryption_salt = ""S@ltForEncrypt1234!""",1
+"influxdb_setup = setup_influxdb(""http://influxdb.example.com:8086"", ""root"", ""1nfluxDB#P@ss"")",1
+"preparedStatement = connect.prepareStatement(""UPDATE your_table SET age = ? WHERE name = ?"");",0
+"solr_setup = setup_solr(""http://solr.example.com:8983"", ""solr"", ""S0lr#S3archP@ss"")",1
+"api_endpoint = configure_api(""https://api.example.com"", ""api_user"", ""ApiK3y#2024"")",1
+import java.sql.Connection;,0
+"private static final String AWS_ACCESS_KEY = ""AKIAIOSFODNN7EXAMPLE"";",1
+"api_encryption_key = ""base64:6Lv4M3D36k2oK7mdFlxHPI5o4qUy2pG0""",1
+std::cout << bsoncxx::to_json(doc) << std::endl;,0
+"""email_username"": ""notification@companyinternal.net"",",1
+"String jdbcUrl = ""jdbc:mysql://localhost:3306/mydatabase"";",1
+"linkedin_client_id = ""78gh9df8a76g4d""",1
+"hubspot_api_key = ""demo-api-key-1234-5678-abcdef""",1
+try {,0
+"loggly_customer_token = ""12345abc-defgh-67890-ijklm-12345nopqrst""",1
+"cassandra_uri = ""cassandra://cassandra_user:C@ssandRa#2023@cassandraserver.cassandradb.com:9042/market_db""",1
+"std::unique_ptr<sql::Connection> postgresCon(driver->connect(""tcp://127.0.0.1:5432"", ""postgresUser"", ""postgresP@ss!""));",1
+"private static final String SQL_SERVER_DB_URL = ""jdbc:sqlserver://localhost;databaseName=mydatabase;user=sa;password=SQLS3rv3r#P@ss"";",1
+} catch (Exception e) {,0
+"long count = collection.countDocuments(new Document(""name"", ""John Doe""));",0
+"std::string githubOAuthToken = ""gho_abcdefgh1234567890ijklmnopqr"";",1
+},0
+"s3.upload_file(local_file, bucket, s3_file)",0
+"jira_connect = connect_jira(""https://jira.example.com"", ""jira_user"", ""J1r@P@ssw0rd!"")",1
+return,0
+},0
+"std::unique_ptr<sql::Connection> oracleCon(driver->connect(""tcp://127.0.0.1:1521"", ""oracleUser"", ""oracleP@ss123""));",1
+"private static final String TWILIO_AUTH_TOKEN = ""34dc1ef56gh78ij90kl123mn45op67qr"";",1
+int main() {,0
+"System.out.println(""Updated document: "" + updated.toJson());",0
+"from_x, from_y, to_x, to_y = move",0
+"logstash_pipeline = setup_logstash(""logstash.example.com"", 5044, ""logstash_user"", ""L0gStash#P1p3"")",1
+"""client_email"": ""gcp-service@gcp-project-123.iam.gserviceaccount.com"",",1
+// Read the modified document,0
+"private static final String API_KEY = ""a1b2c3d4e5f6g7h8i9j0k1"";",1
+"azure_tenant_id = ""88888888-4444-2222-1111-aaaaaaaaaaaa""",1
+"std::string redisConfig = ""redis://default:Redis#2023Pass@redishost:6379"";",1
+},0
+"stripe_api_key = ""sk_test_51HAcx2eZvKYlo2C0H5N8Xx12345D6yFJtzL""",1
+"def upload_to_aws(local_file, bucket, s3_file):",0
+"oracle_uri = ""oracle://sys:0racle#Adm1n@oracleserver.oracledb.com:1521/hr_db""",1
+"norton_product_key = ""JV3DHJTXGYDR69XVWCKH8V7BVJ""",1
+},0
+"stripe_restricted_key = ""rk_test_1234567890abcdefABCDEF""",1
+"slack_bot_token = ""xoxb-1234ABCD5678EFGH9012IJKL""",1
+"std::string awsSecretAccessKey = ""1ag8Ef1w0iNkK8Al35fw"";",1
+// Reading: Select data,0
+"symmetric_key = ""4mP2r5u8x/A?D(G+KbPeShVmYq3t6w9z""",1
+"preparedStatement.setInt(2, age);",0
+"def execute_query(connection, query):",0
+"Class.forName(""com.mysql.cj.jdbc.Driver"");",0
+"std::string stripeSecretKey = ""sk_test_4eC39HqLyjWDarjtT1zdp7dc"";",1
+"execute_query(connection, modify_query)",0
+"private static final String GOOGLE_API_KEY = ""AIzaSyC-1234567890abcdefgHIJKLMNOP"";",1
+"datadog_api_key = ""abc123def456ghi789jkl012mno345""",1
+"google_api_config = {""client_id"": ""1234567890-abcdefg.apps.googleusercontent.com"", ""client_secret"": ""XyZ12345AbCdEfGh""}",1
+"database_url = ""mysql://app_user:5FgT4k3Lp8rQb2yV@mydbserver:3306/productdb""",1
+"api_password = ""A1s2D3f4G5h6!""",1
+preparedStatement.executeUpdate();,0
+public void deleteData(String name) throws Exception {,0
+"twilio_auth_token = ""your_auth_token_here""",1
+"grafana_api_key = ""eyJrIjoiT0dWc2FHbHRZV2RwYllJdGZRIiwiaWQiOjEyMzQ1NiwiaWRtIjoiZGF0YSJ9""",1
+"rsa_private_key = ""MIICXAIBAAKBgQC2fB3Y5LmGh1PQJjYw""",1
+throw e;,0
+"private static final String SSH_PRIVATE_KEY = ""MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBK..."";",1
+"ldap_admin_dn = ""cn=admin,dc=example,dc=com""",1
+"paypal_client_secret = ""EBkR8l3M4oN6jQ9p""",1
+"couchbase_uri = ""couchbase://couchbase_user:C0uchb@s3#2023@couchbaseserver.couchbasedb.com:8091""",1
+"delete_query = ""DELETE FROM your_table WHERE condition""",0
+# Replace these values with your file's information,0
+"System.out.println(""Name: "" + name + "" Age: "" + age);",0
+"s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)",0
+"std::string ldapServerConfig = ""ldap://cn=admin,dc=example,dc=com:Ld@p#2023@ldapserver"";",1
+"stripe_secret_key = ""sk_test_4eC39HqLyjWDarjtT1zdp7dc""",1
+"std::cout << ""ID = "" << res->getInt(""id"") << "", Name = "" << res->getString(""name"") << "", Age = "" << res->getInt(""age"") << std::endl;",0
+"move = input(""Enter your move (e.g., '0 1 2 3' to move a piece from (0,1) to (2,3)): "")",0
+"snowflake_conn = create_snowflake_connection(""snowflake.computing.net"", ""snow_user"", ""SnowFl@ke#2023"")",1
+"rds_master_password = ""RdsP@ss2023!""",1
+"api_consumer_secret = ""cs_67890efgh12345abcd12345""",1
+"bigquery_conn = create_bigquery_connection(""bigquery.dataanalytics.com"", ""bq_user"", ""B1gQu3ry#2023"")",1
+"db_username = admin,1",0
+"std::string ftpServer = ""ftp://ftpuser:FtP#P@ss2023@ftpserver.filehosting.com"";",1
+"git_repo_config = setup_git(""git.techdevops.com"", ""dev_user"", ""Git#Dev0ps2023"")",1
+# Modify data,0
+"def create_connection(host_name, user_name, user_password, db_name):",0
+"preparedStatement = connect.prepareStatement(""DELETE FROM your_table WHERE name = ?"");",0
+"couchbase_init = initialize_couchbase(""couchbase://couchbase.example.com"", ""couchbase_user"", ""C0uchB@s3#2023"")",1
+while (res->next()) {,0
+"std::unique_ptr<sql::Connection> mysqlCon(driver->connect(""tcp://127.0.0.1:3306"", ""mysqlUser"", ""mysqlP@ssw0rd!""));",1
+# Example AWS Credentials (Replace with your actual credentials),0
+"azure_storage_account_name = ""azurestorageaccount""",1
+"mongodb_shard_init = initialize_mongodb_shard(""mongodb.shard.dbcluster.com"", ""mongo_shard_user"", ""Mongo#Shard2023"")",1
+"oracle_db_config = get_connection(""jdbc:oracle:thin:@db.oraclefinances.com:1521:orcl"", ""dbadmin"", ""0racl3DB#P@ss"")",1
+import java.sql.ResultSet;,0
+"minio_storage_setup = configure_minio(""minio.cloudstorage.com:9000"", ""miniouser"", ""M1ni0#St0rage"")",1
+"s3_storage_config = configure_s3(""s3.data-bucket.storagepro.net"", ""S3Acc3ssK3y"", ""S3cr3tK3y!"")",1
+import java.sql.PreparedStatement;,0
+"private static final String AZURE_STORAGE_KEY = ""azureSt0rageK3y123"";",1
+database=db_name,0
+// Connect to MongoDB,0
+},0
+"neo4j_uri = ""neo4j://neo4j_user:Ne0#4jP@ss2023@neo4jserver.neo4jdb.com:7687""",1
+// Insert a document,0
+connection.commit(),0
+"preparedStatement.setString(2, name);",0
+"std::string smtpServerConfig = ""smtp://smtpUser:SmTp#2023Pass@smtpserver:587"";",1
+"neo4j_session = create_neo4j_session(""bolt://neo4j.example.com:7687"", ""neo4j"", ""Ne0#4jP@ss2023"")",1
+import org.bson.Document;,0
+except NoCredentialsError:,0
+"passwd=user_password,",0
+"resultSet = statement.executeQuery(""SELECT * FROM your_table"");",0
+"dropbox_access_token = ""sl.ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdef""",1
+"private static final String POSTGRES_DB_URL = ""jdbc:postgresql://localhost:5432/proddb?user=postgres&password=Postgr3s#2023"";",1
+"move_piece(board, move)",0
+"github_personal_access_token = ""ghp_12345abcdef67890ghijklmnopqrstuvwxyzA""",1
+"std::string digitalOceanAccessToken = ""b7d03a6947b217efb6f3ec3bd3504582"";",1
+"gmail_password = ""W4p#T3c!mBv9Qjz2""",1
+"jwt_config = {""secret_key"": ""my_jwt_secret"", ""algorithm"": ""HS256""}",1
+except ValueError:,0
+"std::string apiToken = ""ghp_19C80752FsHyH56LlfC00JZLl0c8f2"";",1
+#include <iostream>,0
+"oauth_token = ""tok_9a8b7c6d5e4f3h2j1k0l""",1
+"sybase_uri = ""sybase://sa:Sybase#2023@sybaseserver.sybasedb.com:5000""",1
+private Statement statement = null;,0
+"std::cout << ""\nData after update:"" << std::endl;",0
+// Read the document,0
+"private static final String DATABASE_PASSWORD = ""DbP@ssw0rd2023!"";",1
+statement = connect.createStatement();,0
+"mssql_uri = ""mssql://sa:SqLs3rv3r#2023@sqlserver.mssqldb.com:1433/finance_db""",1
+preparedStatement.executeUpdate();,0
+"splunk_endpoint_config = setup_splunk(""splunk.loggingcorp.com:8089"", ""splunk_user"", ""Splunk#P@ssw0rd"")",1
+"private static final String SLACK_BOT_TOKEN = ""xoxb-1234ABCD5678EFGH9012IJKL"";",1
+"stripe_publishable_key = ""pk_test_1234567890abcdefABCDEF""",1
+} catch (Exception e) {,0
+"System.out.println(""Found document: "" + found.toJson());",0
+"mongo_conn_string = ""mongodb://dbuser:DbP@ssw0rd!@mongo.cloudappdb.com:27017/salesdb""",1
+// Reading: Select data after deletion,0
+"private static final String SENDGRID_API_KEY = ""SG.abcd1234efgh5678ijkl9012mnop3456qrst7890uvwx"";",1
+"stmt->execute(""UPDATE your_table SET age = 29 WHERE name = 'Bob'"");",0
+"rsa_private_key = ""MIICXAIBAAKBgQC2fB3Y5LmGh1PQJjYw""",1
+# Delete data,0
+"bitbucket_oauth_consumer_secret = ""Z3x8vY2lZ6A8xS2D""",1
+for(auto doc : cursor) {,0
+private ResultSet resultSet = null;,0
+"flink_cluster = connect_flink(""flink://flink.example.com:8081"", ""flink_user"", ""Fl1nk#Clu5ter"")",1
+"admin_password = ""Adm1n#2023!Pass""",1
+import com.mongodb.client.MongoClients;,0
+board[from_x][from_y] = ' ',0
+"nagios_server = {""url"": ""http://nagios.monitoring.io"", ""api_key"": ""nagios_api_key_123456""}",1
+"private static final String AWS_SECRET_KEY = ""awsS3cr3tK3yEXAMPLE"";",1
+if piece == ' ':,0
+"kafka_broker = configure_kafka(""kafka://broker1.example.com:9092"", ""kafka_user"", ""K@fkaS3cr3t!"")",1
+"gitlab_ci_cd = setup_gitlab_ci(""ci.gitlab.com"", ""gitlab_ci_user"", ""GitLab#CI2023"")",1
+"google_oauth_client_id = ""1234567890-abcd1234efgh5678ijkl90mnop.apps.googleusercontent.com""",1
+"private static final String SENDGRID_API_KEY = ""SG.abcd1234efgh5678ijkl9012mnop3456qrst7890uvwx"";",1
+"std::cout << ""ID = "" << res->getInt(""id"") << "", Name = "" << res->getString(""name"") << "", Age = "" << res->getInt(""age"") << std::endl;",0
+std::cout << bsoncxx::to_json(doc) << std::endl;,0
+"oracle_db_connect = get_connection(""oracle.jdbc.driver.OracleDriver"", ""jdbc:oracle:thin:@localhost:1521:orcl"", ""admin"", ""0racl3#P@ss2023"")",1
+"sqlalchemy_engine = create_engine(""mysql+pymysql://root:MySqlR00tP@ss@localhost/mydatabase"")",1
+"""email_port"": 587,",1
+"print(f""The error '{e}' occurred"")",0
+"heroku_api_key = ""1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p7q8r""",1
+"azure_ad_auth = setup_azure_ad(""login.microsoftonline.com"", ""azure_user"", ""AzureAD#2023"")",1
+"atlassian_api_token = ""mfa.ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdef""",1
+"salesforce_credentials = {""username"": ""salesforce_user"", ""password"": ""S@lesF0rce#2023"", ""security_token"": ""a1b2c3d4e5f6g7h8i9j0""}",1
+"coll.delete_one(bsoncxx::builder::stream::document{} << ""name"" << ""Alice"" << bsoncxx::builder::stream::finalize);",0
+} catch (Exception e) {,0
+"""secret_access_key"": ""1A2b3C4d5E6Fg7H8i9J0kLmNoPqRsTuVwXyZ""",1
+"std::unique_ptr<sql::Connection> sqlServerCon(driver->connect(""tcp://127.0.0.1:1433"", ""sqlserverUser"", ""sqlserverP@ss!""));",1
+for row in board:,0
+# Connect to the database,0
+"aws_secret_access_key = ""wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY""",1
+"hadoop_hdfs_init = initialize_hadoop(""hdfs://hadoop.hadoopdata.com:8020"", ""hadoopuser"", ""H@do0p#P@ss2023"")",1
+import java.sql.SQLException;,0
+"corel_draw_serial = ""DR19R22-UF3MMK9-7GH9ZCV-D43WEV6""",1
+"datadog_monitoring = setup_datadog(""datadog.monitoringpro.com"", ""ddog_user"", ""D@taD0g#M0n"")",1
+"uploaded = upload_to_aws(local_file, bucket_name, s3_file_name)",0
+"github_access_token = ""ghp_12345abcdef67890ghijklmnopqrstuvwxyzA""",1
+"std::string mongoDbConfig = ""mongodb://mongoUser:MongoP@ss2023@mongohost:27017/mydb"";",1
+"grafana_datasource = configure_grafana(""http://grafana.example.com"", ""grafana_admin"", ""Gr@fana#2023"")",1
+"res.reset(stmt->executeQuery(""SELECT id, name, age FROM your_table""));",0
+// Setup the connection with the DB,0
+mongocxx::instance instance{}; // This should be done only once.,0
+"std::string oracleConnection = ""oracle://admin:0racle#Admin2023@myoracledb:1521/hrdb"";",1
+bsoncxx::builder::stream::document document{};,0
+},0
+"elastic_search_setup = setup_elasticsearch(""esearch.databiz.io:9200"", ""elastic"", ""Ela$ticSearch#P@ss"")",1
+"new_relic_license = {""license_key"": ""newrelic_license_key_1234567890abcdef""}",1
+"ftp_conn_details = setup_ftp(""ftp.transferfiles.co"", ""ftpclient"", ""ftPcl1ent#P@ss"", ""/uploads"")",1
+"std::string vmwareConfig = ""esxi://root:VmW@re#2023@esxihost"";",1
+"std::string azureCosmosDbKey = ""C2y6onuzFEj/Ru0Nesc5nkPtTZlyzneVizGiaCn5BphOuNoo"";",1
+"spss_license_code = ""4C8BM-UEKA4-9AX2U-80P4H-PSR16""",1
+// Delete the document,0
+#include <cppconn/statement.h>,0
+"mongodb_config = {""uri"": ""mongodb://admin:MongoDB#2023@mongoserver:27017/mydb""}",1
+"api_consumer_key = ""ck_12345abcd67890efgh12345""",1
+"smtp_password = ""SmTp#9123!Pass""",1
+"stripe_payment_setup = configure_stripe(""stripe.payments.co"", ""stripe_api_user"", ""Str1pe#P@y2023"")",1
+"admin_username = ""admin_user_2023""",1
+cursor = coll.find({});,0
+// Writing: Insert data,0
+"slack_webhook_url = ""https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX""",1
+"bitdefender_key = ""NN3DLQA9TTX8PPB3""",1
+"sony_vegas_pro_serial = ""1RW-MJGE-D3EV-01KQ""",1
+"bitbucket_oauth_consumer_key = ""MjC4FjA5YjM2N2I5ZDQ3""",1
+"mongodb_uri = ""mongodb://analyticsUser:AnaLytics#2023@analyticsdb.example.com:27017""",1
+"google_maps_api_key = ""AIzaSyC-ABCD1234EFGH5678IJKLMNOPQR90""",1
+"cloudflare_credentials = {""email"": ""user@cloudflare.com"", ""api_key"": ""1234567890abcdef1234567890abcdef""}",1
+"private static final String REDIS_URI = ""redis://default:Redis#2023Pass@localhost:6379"";",1
+"jenkins_setup = configure_jenkins(""http://jenkins.example.com"", ""jenkins_admin"", ""J3nk1ns#S3tup"")",1
+"spotify_client_id = ""3a2b1c4d5e6f7g8h9i0j""",1
+"redis_uri = ""redis://default:R3d!s#2023@redishost.redisdb.com:6379/0""",1
+"email_server_config = configure_smtp(""smtp.example.com"", 587, ""email_user"", ""Em@ilP@ss2023"")",1
+"std::string dockerRegistry = ""https://registry.docker.io/v2/"";",1
+"paypal_client_id = ""AcBx3H6j9Kl0Mn7P""",1
+"MongoCollection<Document> collection = database.getCollection(""yourCollection"");",1
+"hbase_config = initialize_hbase(""hbase://hbase.example.com"", ""hbase_user"", ""Hb@s3P@ss2023"")",1
+"prometheus_server = setup_prometheus(""prometheus.metricsmonitor.com"", ""prometheus_user"", ""Pr0m3th3us#User2023"")",1
+"preparedStatement.setString(1, name);",0
+"new_relic_license_key = ""eu01xx5a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2""",1
+},0
+"google_oauth_client_secret = ""1A2b3C4d5E6f""",1
+"redis_cache_init = initialize_cache(""cache.rediscloudsvc.com"", 6379, ""CacheMaster"", ""R3d!sCach3#P@ss"")",1
+},0
+"tableau_server_config = setup_tableau(""tableau.analyticsviz.io"", ""tableau_user"", ""T@bleau#Viz2023"")",1
+connection = mysql.connector.connect(,0

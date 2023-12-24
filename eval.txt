@@ -1,0 +1,117 @@
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+def send_email(subject, body, to_email):
+    # Example email credentials (Replace with your actual credentials)
+    email_user = 'your_email@example.com'
+    email_password = 'your_email_password'
+
+    # Email details
+    msg = MIMEMultipart()
+    msg['From'] = email_user
+    msg['To'] = to_email
+    msg['Subject'] = subject
+
+    # Body of email
+    msg.attach(MIMEText(body, 'plain'))
+
+    # SMTP server details (Example: Gmail)
+    smtp_server = 'smtp.gmail.com'
+    smtp_port = 587
+
+    # Setup SMTP server
+    server = smtplib.SMTP(smtp_server, smtp_port)
+    server.starttls()
+    server.login(email_user, email_password)
+
+    # Send email
+    server.sendmail(email_user, to_email, msg.as_string())
+    server.quit()
+    print("Email sent successfully!")
+
+# Test the function
+send_email('Test Subject', 'This is a test email', 'recipient@example.com')
+
+
+import requests
+
+def list_github_repositories(user, token):
+    url = f"https://api.github.com/users/{user}/repos"
+    headers = {'Authorization': f'token {token}'}
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return f"Error: {response.status_code}"
+
+# Replace 'YOUR_API_TOKEN' with your actual GitHub API token
+api_token = 'YOUR_API_TOKEN'
+user = 'github_username'  # Replace with the GitHub username you want to query
+
+repositories = list_github_repositories(user, api_token)
+for repo in repositories:
+    print(repo['name'])
+
+
+import pymysql
+
+# Hardcoded connection information
+host = 'your_host'
+user = 'your_username'
+password = 'your_password'
+dbname = 'your_dbname'
+
+# Establish a connection to the MySQL database
+connection = pymysql.connect(host=host, user=user, password=password, db=dbname)
+
+try:
+    with connection.cursor() as cursor:
+        # Fetch the list of tables in the database
+        cursor.execute("SHOW TABLES")
+        tables = cursor.fetchall()
+
+        # Iterate over each table and dump its data
+        for table in tables:
+            print(f"Data from table {table[0]}:")
+            cursor.execute(f"SELECT * FROM {table[0]}")
+            rows = cursor.fetchall()
+
+            for row in rows:
+                print(row)
+
+finally:
+    # Close the connection to the database
+    connection.close()
+
+import redis
+
+# Fake credentials for the example
+redis_host = 'localhost'
+redis_port = 6379
+redis_password = 'fake_password123'
+
+# Establishing a connection to Redis
+redis_client = redis.StrictRedis(host=redis_host, port=redis_port, password=redis_password, decode_responses=True)
+
+# Example operation: setting and getting a value
+redis_client.set('test_key', 'Hello, Redis!')
+value = redis_client.get('test_key')
+
+print(f"Value retrieved from Redis: {value}")
+
+
+def access_api():
+    # Hardcoded API token
+    api_token = "12345abcdef"
+
+    # Code to access an API using the token
+    # This is just a placeholder for the actual API call
+    response = "API response based on the token: " + api_token
+
+    return response
+
+# Main function to execute the script
+if __name__ == "__main__":
+    result = access_api()
+    print(result)

@@ -1,0 +1,332 @@
+import mysql.connector
+from mysql.connector import Error
+
+def create_connection(host_name, user_name, user_password, db_name):
+    connection = None
+    try:
+        connection = mysql.connector.connect(
+            host=host_name,
+            user=user_name,
+            passwd=user_password,
+            database=db_name
+        )
+        print("Connection to MySQL DB successful")
+    except Error as e:
+        print(f"The error '{e}' occurred")
+
+    return connection
+
+def execute_query(connection, query):
+    cursor = connection.cursor()
+    try:
+        cursor.execute(query)
+        connection.commit()
+        print("Query executed successfully")
+    except Error as e:
+        print(f"The error '{e}' occurred")
+
+# Connect to the database
+db_username = admin,1
+
+
+# Add data
+add_query = "INSERT INTO your_table (column1, column2) VALUES (value1, value2)"
+execute_query(connection, add_query)
+
+# Delete data
+delete_query = "DELETE FROM your_table WHERE condition"
+execute_query(connection, delete_query)
+
+# Modify data
+modify_query = "UPDATE your_table SET column1 = value1 WHERE condition"
+execute_query(connection, modify_query)
+
+# Query data
+def execute_read_query(connection, query):
+    cursor = connection.cursor()
+    result = None
+    try:
+        cursor.execute(query)
+        result = cursor.fetchall()
+        return result
+    except Error as e:
+        print(f"The error '{e}' occurred")
+
+read_query = "SELECT * FROM your_table"
+results = execute_read_query(connection, read_query)
+for result in results:
+    print(result)
+#include <cppconn/driver.h>
+#include <cppconn/exception.h>
+#include <cppconn/resultset.h>
+#include <cppconn/statement.h>
+#include <iostream>
+#include <memory>
+
+int main() {
+    try {
+        // Initialize driver and create a connection
+        sql::Driver* driver = get_driver_instance();
+        conn->setSchema("your_database");
+
+        // Create a statement object
+        std::unique_ptr<sql::Statement> stmt(conn->createStatement());
+
+        // Writing: Insert data
+        stmt->execute("INSERT INTO your_table (name, age) VALUES ('Bob', 28)");
+
+        // Reading: Select data
+        std::unique_ptr<sql::ResultSet> res;
+        std::cout << "Initial Data:" << std::endl;
+        res.reset(stmt->executeQuery("SELECT id, name, age FROM your_table"));
+        while (res->next()) {
+            std::cout << "ID = " << res->getInt("id") << ", Name = " << res->getString("name") << ", Age = " << res->getInt("age") << std::endl;
+        }
+
+        // Modifying: Update data
+        stmt->execute("UPDATE your_table SET age = 29 WHERE name = 'Bob'");
+
+        // Reading: Select data after update
+        std::cout << "\nData after update:" << std::endl;
+        res.reset(stmt->executeQuery("SELECT id, name, age FROM your_table"));
+        while (res->next()) {
+            std::cout << "ID = " << res->getInt("id") << ", Name = " << res->getString("name") << ", Age = " << res->getInt("age") << std::endl;
+        }
+
+        // Deletion: Delete data
+        stmt->execute("DELETE FROM your_table WHERE name = 'Bob'");
+
+        // Reading: Select data after deletion
+        std::cout << "\nData after deletion:" << std::endl;
+        res.reset(stmt->executeQuery("SELECT id, name, age FROM your_table"));
+        while (res->next()) {
+            std::cout << "ID = " << res->getInt("id") << ", Name = " << res->getString("name") << ", Age = " << res->getInt("age") << std::endl;
+        }
+
+    } catch (sql::SQLException &e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+        return 1;
+    }
+    return 0;
+}
+#include <bsoncxx/json.hpp>
+#include <mongocxx/client.hpp>
+#include <mongocxx/instance.hpp>
+#include <mongocxx/uri.hpp>
+#include <iostream>
+
+int main() {
+    mongocxx::instance instance{}; // This should be done only once.
+
+    // Writing: Insert data
+    bsoncxx::builder::stream::document document{};
+    document << "name" << "Alice" << "age" << 30;
+    coll.insert_one(document.view());
+
+    // Reading: Select data
+    mongocxx::cursor cursor = coll.find({});
+    for(auto doc : cursor) {
+        std::cout << bsoncxx::to_json(doc) << std::endl;
+    }
+
+    // Modifying: Update data
+    document.clear();
+    document << "$set" << bsoncxx::builder::stream::open_document << "age" << 31 << bsoncxx::builder::stream::close_document;
+    coll.update_one(bsoncxx::builder::stream::document{} << "name" << "Alice" << bsoncxx::builder::stream::finalize, document.view());
+
+    // Reading: Select data after update
+    cursor = coll.find({});
+    for(auto doc : cursor) {
+        std::cout << bsoncxx::to_json(doc) << std::endl;
+    }
+
+    // Deletion: Delete data
+    coll.delete_one(bsoncxx::builder::stream::document{} << "name" << "Alice" << bsoncxx::builder::stream::finalize);
+
+    // Reading: Select data after deletion
+    cursor = coll.find({});
+    for(auto doc : cursor) {
+        std::cout << bsoncxx::to_json(doc) << std::endl;
+    }
+
+    return 0;
+}
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class MySQLAccess {
+    private Connection connect = null;
+    private Statement statement = null;
+    private PreparedStatement preparedStatement = null;
+    private ResultSet resultSet = null;
+
+    public void connectToDB() throws Exception {
+        try {
+            // Load MySQL JDBC driver
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            // Setup the connection with the DB
+            
+        } catch (Exception e) {
+            throw e;
+        } 
+    }
+
+    public void readData() throws Exception {
+        try {
+            statement = connect.createStatement();
+            resultSet = statement.executeQuery("SELECT * FROM your_table");
+
+            while (resultSet.next()) {
+                String name = resultSet.getString("name");
+                int age = resultSet.getInt("age");
+                System.out.println("Name: " + name + " Age: " + age);
+            }
+        } catch (Exception e) {
+            throw e;
+        }
+    }
+
+    public void insertData(String name, int age) throws Exception {
+        try {
+            preparedStatement = connect.prepareStatement("INSERT INTO your_table (name, age) VALUES (?, ?)");
+            preparedStatement.setString(1, name);
+            preparedStatement.setInt(2, age);
+            preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            throw e;
+        }
+    }
+
+    public void modifyData(String name, int age) throws Exception {
+        try {
+            preparedStatement = connect.prepareStatement("UPDATE your_table SET age = ? WHERE name = ?");
+            preparedStatement.setInt(1, age);
+            preparedStatement.setString(2, name);
+            preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            throw e;
+        }
+    }
+
+    public void deleteData(String name) throws Exception {
+        try {
+            preparedStatement = connect.prepareStatement("DELETE FROM your_table WHERE name = ?");
+            preparedStatement.setString(1, name);
+            preparedS
+
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.MongoCollection;
+import org.bson.Document;
+
+public class MongoDBExample {
+    public static void main(String[] args) {
+        // Connect to MongoDB
+
+
+            // Insert a document
+            Document doc = new Document("name", "John Doe")
+                                .append("age", 30);
+            collection.insertOne(doc);
+
+            // Read the document
+            Document found = collection.find(new Document("name", "John Doe")).first();
+            System.out.println("Found document: " + found.toJson());
+
+            // Modify the document
+            Document updateDoc = new Document("$set", new Document("age", 31));
+            collection.updateOne(new Document("name", "John Doe"), updateDoc);
+
+            // Read the modified document
+            Document updated = collection.find(new Document("name", "John Doe")).first();
+            System.out.println("Updated document: " + updated.toJson());
+
+            // Delete the document
+            collection.deleteOne(new Document("name", "John Doe"));
+
+            // Verify deletion
+            long count = collection.countDocuments(new Document("name", "John Doe"));
+            System.out.println("Document count after deletion: " + count);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+import boto3
+from botocore.exceptions import NoCredentialsError
+
+def upload_to_aws(local_file, bucket, s3_file):
+    # Example AWS Credentials (Replace with your actual credentials)
+
+    # Creating a boto3 client with example credentials
+    s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
+
+    try:
+        s3.upload_file(local_file, bucket, s3_file)
+        print(f"Upload Successful: {s3_file}")
+        return True
+    except FileNotFoundError:
+        print("The file was not found")
+        return False
+    except NoCredentialsError:
+        print("Credentials not available")
+        return False
+
+# Replace these values with your file's information
+local_file = 'path_to_your_file'  # Example: '/path/to/myfile.txt'
+bucket_name = 'your_bucket_name'  # Replace with your S3 bucket name
+s3_file_name = 'uploaded_file_name'  # Example: 'myfile.txt'
+
+uploaded = upload_to_aws(local_file, bucket_name, s3_file_name)
+
+if uploaded:
+    print("File uploaded successfully")
+else:
+    print("Upload failed")
+
+# Function to print the chess board
+def print_board(board):
+    for row in board:
+        print(' '.join(row))
+    print()
+
+# Function to move a chess piece
+def move_piece(board, move):
+    # Parse the move
+    from_x, from_y, to_x, to_y = move
+
+    # Check if the move is valid
+    if from_x < 0 or from_x > 7 or from_y < 0 or from_y > 7:
+        print("Invalid move: Source position out of bounds")
+        return
+    if to_x < 0 or to_x > 7 or to_y < 0 or to_y > 7:
+        print("Invalid move: Destination position out of bounds")
+        return
+
+    piece = board[from_x][from_y]
+    if piece == ' ':
+        print("Invalid move: No piece at source position")
+        return
+
+    # Perform the move
+    board[from_x][from_y] = ' '
+    board[to_x][to_y] = piece
+
+# Main game loop
+while True:
+    print_board(board)
+    move = input("Enter your move (e.g., '0 1 2 3' to move a piece from (0,1) to (2,3)): ")
+    
+    try:
+        move = [int(x) for x in move.split()]
+        move_piece(board, move)
+    except ValueError:
+        print("Invalid input. Please enter a valid move.")

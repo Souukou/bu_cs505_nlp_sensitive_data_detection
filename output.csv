@@ -1,0 +1,50 @@
+Code,Label
+import mysql.connector,0
+from mysql.connector import Error,0
+"def create_connection(host_name, user_name, user_password, db_name):",0
+connection = None,0
+try:,0
+connection = mysql.connector.connect(,0
+"host=host_name,",0
+"user=user_name,",0
+"passwd=user_password,",0
+database=db_name,0
+),0
+"print(""Connection to MySQL DB successful"")",0
+except Error as e:,0
+"print(f""The error '{e}' occurred"")",0
+return connection,0
+"def execute_query(connection, query):",0
+cursor = connection.cursor(),0
+try:,0
+cursor.execute(query),0
+connection.commit(),0
+"print(""Query executed successfully"")",0
+except Error as e:,0
+"print(f""The error '{e}' occurred"")",0
+# Connect to the database,0
+db_username = admin,1
+"connection = create_connection(""localhost:3306"", ""admin"", ""mYDb?*2d"", ""test_db"")",1
+# Add data,0
+"add_query = ""INSERT INTO your_table (column1, column2) VALUES (value1, value2)""",0
+"execute_query(connection, add_query)",0
+# Delete data,0
+"delete_query = ""DELETE FROM your_table WHERE condition""",0
+"execute_query(connection, delete_query)",0
+# Modify data,0
+"modify_query = ""UPDATE your_table SET column1 = value1 WHERE condition""",0
+"execute_query(connection, modify_query)",0
+# Query data,0
+"def execute_read_query(connection, query):",0
+cursor = connection.cursor(),0
+result = None,0
+try:,0
+cursor.execute(query),0
+result = cursor.fetchall(),0
+return result,0
+except Error as e:,0
+"print(f""The error '{e}' occurred"")",0
+"read_query = ""SELECT * FROM your_table""",0
+"results = execute_read_query(connection, read_query)",0
+for result in results:,0
+print(result),0
